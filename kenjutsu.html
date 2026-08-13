@@ -3,112 +3,120 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Краткая памятка CGFC по экспериментальным правилам кендзюцу.">
+  <meta name="description" content="Краткая памятка CGFC по экспериментальным правилам кендзюцу: как определить победителя и разобрать особые ситуации.">
   <title>Кендзюцу — CGFC</title>
   <link rel="stylesheet" href="assets/styles.css">
 </head>
-<body>
-  <header class="site-header">
-    <a class="brand" href="index.html"><span class="brand-mark">C</span><span><strong>CGFC</strong><small>памятки</small></span></a>
-    <nav class="main-nav" aria-label="Навигация"><a href="index.html">Главная</a><a href="longsword.html">Длинный меч</a><a href="kenjutsu.html" aria-current="page">Кендзюцу</a><a href="glossary.html">Темп</a></nav>
+<body class="kenjutsu-rules">
+  <a class="skip-link" href="#content">К правилам</a>
+
+  <header class="site-header kenjutsu-header">
+    <a class="kenjutsu-brand" href="index.html" aria-label="CGFC — регламент соревнований">
+      <strong>CGFC</strong>
+      <span>Регламент соревнований</span>
+    </a>
+    <nav class="kenjutsu-nav" aria-label="Основная навигация">
+      <a href="index.html">Общий регламент</a>
+      <a href="longsword.html">Длинный меч</a>
+      <a href="kenjutsu.html" aria-current="page">Кендзюцу</a>
+    </nav>
   </header>
 
-  <main id="content" class="article-shell compact-article">
-    <header class="simple-hero">
-      <p class="eyebrow">Экспериментальные правила · по записи пробного судейства</p>
-      <h1>Кендзюцу</h1>
+  <main id="content" class="kenjutsu-main">
+    <p class="kenjutsu-flow" aria-label="Порядок определения результата">
+      <span>Копим до «Стоп»</span>
+      <span aria-hidden="true">→</span>
+      <span>считаем обоим</span>
+      <span aria-hidden="true">→</span>
+      <span>сравниваем результаты</span>
+    </p>
+
+    <header class="kenjutsu-title">
+      <h1>Как определить победителя</h1>
+      <p>Сравните итог каждого бойца по одной иерархии.</p>
     </header>
 
-    <section class="content-section">
-      <div class="section-number">01</div>
-      <div class="section-content">
-        <h2>Раунд</h2>
-        <p><strong>Баллы копятся внутри раунда. «Стоп» — когда хотя бы один боец набрал ≥ 1.</strong></p>
-        <p class="muted">После фразы сложить баллы обоих. Раунд выигрывает тот, у кого сумма больше.</p>
-        <div class="memory-line"><strong>Одиночные 0,5 не останавливают бой.</strong></div>
-      </div>
+    <section class="kenjutsu-control" aria-label="Наивысший результат">
+      <strong>Контроль — немедленная победа</strong>
     </section>
 
-    <section class="content-section">
-      <div class="section-number">02</div>
-      <div class="section-content">
-        <h2>Баллы</h2>
-        <div class="table-wrap">
-          <table>
-            <thead><tr><th>Действие</th><th>Зона</th><th>Баллы</th><th>Когда считать</th></tr></thead>
-            <tbody>
-              <tr><th>Любая атака</th><td>Конечность</td><td>0,5</td><td>Квалифицированное действие</td></tr>
-              <tr><th>Удар / укол</th><td>Голова или корпус</td><td>1,5</td><td>Квалифицированное попадание</td></tr>
-              <tr><th>Порез*</th><td>Голова или корпус</td><td>1,7*</td><td>Фиксация лезвия + видимое давление</td></tr>
-              <tr><th>Фаза контроля*</th><td>—</td><td>Победа</td><td>Автоматически завершает раунд</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-
-    <section class="content-section">
-      <div class="section-number">03</div>
-      <div class="section-content">
-        <h2>Порез</h2>
-        <ul class="check-list">
-          <li>Лезвие явно зафиксировано на теле.</li>
-          <li>Давление видно; простого касания недостаточно.</li>
-          <li>Считать в момент фиксации, а не протяжки.</li>
-          <li>Сразу «Стоп»; после команды не бить.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="content-section">
-      <div class="section-number">04</div>
-      <div class="section-content">
-        <h2>Дубли</h2>
-        <p><strong>Афтерблоу нет.</strong> Одновременные действия — дубль: баллы получают оба. Позднее действие не считать.</p>
-        <div class="table-wrap">
-          <table>
-            <thead><tr><th>Пример</th><th>Красный</th><th>Синий</th><th>Кто выиграл</th></tr></thead>
-            <tbody>
-              <tr><th>Две конечности ↔ старшая зона на втором движении</th><td>0,5 + 0,5 = 1</td><td>1,5</td><td>Синий</td></tr>
-              <tr><th>Конечность + старшая ↔ старшая зона</th><td>0,5 + 1,5 = 2</td><td>1,5</td><td>Красный</td></tr>
-              <tr><th>Конечность + старшая ↔ порез</th><td>0,5 + 1,5 = 2</td><td>1,7*</td><td>Красный</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-
-    <section class="content-section">
-      <div class="section-number">05</div>
-      <div class="section-content">
-        <h2>Клинч</h2>
-        <p><strong>Продолжать борьбу за контроль или фиксацию пореза.</strong></p>
-        <p class="muted">В тесте отдельного лимита клинча нет. Можно контролировать оружие и руки; болезненные удары и бессмысленные толчки не являются целью.</p>
-      </div>
-    </section>
-
-    <section class="content-section role-section">
-      <div class="section-number">06</div>
-      <div class="section-content">
-        <h2>Судье</h2>
-        <ol class="steps">
-          <li><span>1</span><div><strong>Квалифицировать действия</strong><p>Зона, качество, порез или контроль.</p></div></li>
-          <li><span>2</span><div><strong>Определить дубль</strong><p>Начислить обоим; позднее действие отбросить.</p></div></li>
-          <li><span>3</span><div><strong>Сложить отдельно</strong><p>При достижении ≥ 1 сравнить суммы и объявить раунд.</p></div></li>
+    <section class="hierarchy-section" id="hierarchy" aria-labelledby="hierarchy-title">
+      <div class="hierarchy-wrap">
+        <h2 class="sr-only" id="hierarchy-title">Иерархия результатов от сильного к слабому</h2>
+        <ol class="result-hierarchy">
+          <li class="result-tier tier-1"><span>Конечность → порез старшей зоны</span></li>
+          <li class="result-tier tier-2"><span>Конечность → удар/укол в старшую зону</span></li>
+          <li class="result-tier tier-3"><span>Порез старшей зоны</span></li>
+          <li class="result-tier tier-4"><span>Удар/укол в старшую зону</span></li>
+          <li class="result-tier tier-5"><span>Два попадания в конечности</span></li>
         </ol>
+        <p class="limb-note">Одно попадание в конечность накапливается,<br>но само по себе раунд не завершает.</p>
       </div>
+
+      <aside class="how-to-read">
+        <h2>Как читать</h2>
+        <ol>
+          <li>Найди итог каждого бойца.</li>
+          <li>Кто выше в иерархии — тот выиграл.</li>
+          <li>При дубле сначала добавь действия обоим.</li>
+          <li>Одинаковая ступень — равный результат.</li>
+        </ol>
+      </aside>
     </section>
 
-    <aside class="notice warning">
-      <div>
-        <strong>Уточнить до турнира</strong>
-        <p>Формат боя: в записи сначала 3 победы из 5, затем 4 из 7. Также нужны точные определения равного дубля, фазы контроля, лимита клинча и подтверждение цены пореза 1,7.</p>
-      </div>
-    </aside>
+    <section class="outcome-section" aria-labelledby="outcome-title">
+      <h2 id="outcome-title">Кто выигрывает?</h2>
+      <dl class="outcome-grid">
+        <div>
+          <dt>Чистое действие или серия</dt>
+          <dd>Выполнивший её боец.</dd>
+        </div>
+        <div>
+          <dt>Комбинация против одиночного действия</dt>
+          <dd>Комбинация, если её итог выше.</dd>
+        </div>
+        <div>
+          <dt>Дубль без прежних действий</dt>
+          <dd>Более ценное действие.</dd>
+        </div>
+        <div>
+          <dt>Поздний ответ</dt>
+          <dd>Не считать; определить исход без него.</dd>
+        </div>
+        <div>
+          <dt>Дубль после прежних действий</dt>
+          <dd>Более высокий накопленный итог.</dd>
+        </div>
+        <div>
+          <dt>Равный итог</dt>
+          <dd>Порядок решения нужно подтвердить.</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="special-rules" aria-labelledby="special-title">
+      <h2 class="sr-only" id="special-title">Особые ситуации</h2>
+      <details>
+        <summary>При дубле считать обоим</summary>
+        <p>Одновременные действия засчитываются обоим и добавляются к накопленному.</p>
+      </details>
+      <details>
+        <summary>Порез считать при фиксации</summary>
+        <p>Лезвие явно зафиксировано на теле, давление видно; протяжка не нужна.</p>
+      </details>
+      <details>
+        <summary>Клинч продолжать</summary>
+        <p>Не останавливать, пока нет результата, пореза или контроля.</p>
+      </details>
+      <details>
+        <summary>Афтерблоу нет</summary>
+        <p>Одновременное действие — дубль. Ответ после паузы или «Стоп» — поздний и не считается.</p>
+      </details>
+    </section>
   </main>
 
-  <footer class="site-footer">
-    <p>* Формулировка или значение требуют подтверждения организатора.</p>
+  <footer class="kenjutsu-footer">
+    Экспериментальный регламент · формулировки с пометкой «подтвердить» требуют решения организатора.
   </footer>
 </body>
 </html>
