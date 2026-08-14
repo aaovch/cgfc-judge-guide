@@ -3,99 +3,125 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Краткая памятка CGFC по командному длинному мечу.">
+  <meta name="description" content="Краткая памятка CGFC по командному длинному мечу: формат встречи, порядок пар, баллы и темп.">
   <title>Командный длинный меч — CGFC</title>
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/styles.css?v=13">
 </head>
-<body>
-  <header class="site-header">
-    <a class="brand" href="index.html"><span class="brand-mark">C</span><span><strong>CGFC</strong><small>памятки</small></span></a>
-    <nav class="main-nav" aria-label="Навигация"><a href="index.html">Главная</a><a href="longsword.html" aria-current="page">Длинный меч</a><a href="kenjutsu.html">Кендзюцу</a><a href="glossary.html">Темп</a></nav>
+<body class="kenjutsu-rules longsword-rules">
+  <a class="skip-link" href="#content">К правилам</a>
+
+  <header class="site-header kenjutsu-header">
+    <a class="kenjutsu-brand" href="index.html" aria-label="CGFC — регламент соревнований">
+      <strong>CGFC</strong>
+      <span>Регламент соревнований</span>
+    </a>
+    <nav class="kenjutsu-nav" aria-label="Основная навигация">
+      <a href="index.html">Общий регламент</a>
+      <a href="longsword.html" aria-current="page">Длинный меч</a>
+      <a href="kenjutsu.html">Кендзюцу</a>
+    </nav>
   </header>
 
-  <main id="content" class="article-shell">
-    <header class="simple-hero">
-      <p class="eyebrow">Актуальный формат CGFC · баллы со * нужно сверить</p>
-      <h1>Командный длинный меч</h1>
-    </header>
+  <main id="content" class="kenjutsu-main">
+    <section class="tournament-overview" aria-labelledby="match-title">
+      <header class="tournament-heading">
+        <h1 id="match-title">Как выиграть встречу</h1>
+        <p>Набрать 45 баллов или сохранить преимущество после девятого боя</p>
+      </header>
 
-    <section class="content-section">
-      <div class="section-number">01</div>
-      <div class="section-content">
-        <h2>Темп</h2>
-        <div class="table-wrap">
-          <table>
-            <thead><tr><th>Ситуация</th><th>Порядок</th><th>Действие второго</th><th>Решение</th></tr></thead>
-            <tbody>
-              <tr><th>Обоюдное</th><td>Не различим</td><td>Параллельное</td><td>Вместе</td></tr>
-              <tr><th>Опережение</th><td>Первый явно раньше</td><td>Попадания нет</td><td>Только первое</td></tr>
-              <tr><th>Афтерблоу</th><td>Первый явно раньше</td><td>Сразу, без паузы</td><td>Первое + ответ</td></tr>
-              <tr><th>Поздний</th><td>Первый явно раньше</td><td>Пауза или новое решение</td><td>Ответ не считать</td></tr>
-            </tbody>
-          </table>
+      <dl class="bout-formats">
+        <div>
+          <dt>Турнир</dt>
+          <dd><strong>5 туров</strong><span>только швейцарка</span></dd>
         </div>
-        <div class="memory-line"><strong>Вместе — обоюдное · Следом — афтерблоу · Заново — поздно</strong></div>
-      </div>
-    </section>
-
-    <section class="content-section">
-      <div class="section-number">02</div>
-      <div class="section-content">
-        <h2>Баллы*</h2>
-        <div class="table-wrap">
-          <table>
-            <thead><tr><th>Попадание</th><th>Старшая зона</th><th>Младшая зона</th></tr></thead>
-            <tbody>
-              <tr><th>Первое</th><td>3</td><td>1</td></tr>
-              <tr><th>Афтерблоу</th><td>2</td><td>0</td></tr>
-            </tbody>
-          </table>
+        <div>
+          <dt>Встреча</dt>
+          <dd><strong>3 × 3 · 9 боёв</strong><span>общий счёт</span></dd>
         </div>
-        <p class="muted">Старшая: голова, шея, корпус. Младшая: конечность или удар одной рукой. Итог схода — разница баллов.*</p>
-      </div>
-    </section>
-
-    <section class="content-section">
-      <div class="section-number">03</div>
-      <div class="section-content">
-        <h2>Формат</h2>
-        <p><strong>Турнир: швейцарка · 5 туров · без плей-офф и финалов</strong></p>
-        <p><strong>Матч: 3 × 3 · 9 боёв · каждый бой 45 секунд · кап +5 баллов</strong></p>
-        <div class="relay" aria-label="Очередность пар">
-          <span>3–6</span><span>1–5</span><span>2–4</span><span>1–6</span><span>3–4</span><span>2–5</span><span>1–4</span><span>2–6</span><span>3–5</span>
+        <div>
+          <dt>Один бой</dt>
+          <dd><strong>45 секунд</strong><span>кап растёт на 5</span></dd>
         </div>
-      </div>
+      </dl>
     </section>
 
-    <section class="content-section role-section">
-      <div class="section-number">04</div>
-      <div class="section-content">
-        <h2>Судье</h2>
-        <ol class="steps">
-          <li><span>1</span><div><strong>Что попало?</strong><p>Действие и зона.</p></div></li>
-          <li><span>2</span><div><strong>Когда?</strong><p>Обоюдное, опережение, афтерблоу или поздно.</p></div></li>
-          <li><span>3</span><div><strong>Сколько?</strong><p>Результат схода и новый счёт.</p></div></li>
-        </ol>
-      </div>
+    <section class="longsword-section relay-section" aria-labelledby="relay-title">
+      <header class="longsword-heading">
+        <h2 id="relay-title">Как идёт встреча</h2>
+        <p>Счёт переносится от пары к паре. Команда 1 — бойцы 1–3, команда 2 — бойцы 4–6.</p>
+      </header>
+
+      <ol class="relay-sequence" aria-label="Порядок боёв и предел счёта">
+        <li><small>1</small><strong>3–6</strong><span>до 5</span></li>
+        <li><small>2</small><strong>1–5</strong><span>до 10</span></li>
+        <li><small>3</small><strong>2–4</strong><span>до 15</span></li>
+        <li><small>4</small><strong>1–6</strong><span>до 20</span></li>
+        <li><small>5</small><strong>3–4</strong><span>до 25</span></li>
+        <li><small>6</small><strong>2–5</strong><span>до 30</span></li>
+        <li><small>7</small><strong>1–4</strong><span>до 35</span></li>
+        <li><small>8</small><strong>2–6</strong><span>до 40</span></li>
+        <li><small>9</small><strong>3–5</strong><span>до 45</span></li>
+      </ol>
+      <p class="priority-note relay-tie"><strong>Ничья после 9-го:</strong> последняя пара фехтует ещё 30 секунд до первого эффективного попадания; приоритет разыгрывается заранее.</p>
     </section>
 
-    <section class="content-section role-section">
-      <div class="section-number">05</div>
-      <div class="section-content">
-        <h2>Бойцу</h2>
-        <ul class="check-list">
-          <li>Знай свой номер и следующую пару.</li>
-          <li>После попадания продолжай защищаться.</li>
-          <li>После «Стоп!» не начинай новое действие.</li>
-          <li>При несогласии говорит капитан.</li>
-        </ul>
+    <section class="longsword-section scoring-section" aria-labelledby="scoring-title">
+      <header class="longsword-heading">
+        <h2 id="scoring-title">Как считать сход</h2>
+        <p>Определи попадания и засчитай команде только разницу.</p>
+      </header>
+
+      <div class="score-summary">
+        <article class="score-rule">
+          <h3>Обычное попадание</h3>
+          <dl>
+            <div><dt>Старшая зона</dt><dd>3</dd></div>
+            <div><dt>Младшая зона</dt><dd>1</dd></div>
+          </dl>
+        </article>
+        <article class="score-rule">
+          <h3>Афтерблоу</h3>
+          <dl>
+            <div><dt>Старшая зона</dt><dd>2</dd></div>
+            <div><dt>Младшая зона</dt><dd>0</dd></div>
+          </dl>
+        </article>
+        <article class="score-rule score-difference">
+          <h3>В счёт встречи</h3>
+          <strong>Разница баллов</strong>
+          <p>Равные действия дают 0.</p>
+        </article>
       </div>
+
+      <div class="tempo-decisions" aria-label="Разбор темпа">
+        <article>
+          <h3>Опережение</h3>
+          <p>Первый попал, ответ не достиг цели.</p>
+          <strong>Только первое</strong>
+        </article>
+        <article>
+          <h3>Обоюдное</h3>
+          <p>Порядок попаданий неразличим.</p>
+          <strong>Сравнить оба</strong>
+        </article>
+        <article>
+          <h3>Афтерблоу</h3>
+          <p>Ответ уже начат или начинается сразу.</p>
+          <strong>Ответ: 2 / 0</strong>
+        </article>
+        <article>
+          <h3>Поздно</h3>
+          <p>Была пауза или принято новое решение.</p>
+          <strong>Ответ не считать</strong>
+        </article>
+      </div>
+
+      <p class="priority-note"><strong>Равнозначное обоюдное:</strong> 1 балл получает ответ после защиты, а не повторная атака.</p>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <p>* Баллы и зоны пока предварительные.</p>
-    <a href="https://purlakpv.github.io/fencing-brain/" rel="noreferrer">Источник</a>
+  <footer class="kenjutsu-footer">
+    Командный длинный меч · CGFC
   </footer>
 </body>
 </html>
