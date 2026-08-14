@@ -82,6 +82,14 @@ Fix applied: removed the note row so the three bout-format cells lead directly i
 
 Fix applied: made the unit explicit in all three stage cells: “выигранных раундов”.
 
+### Pass 11
+
+- P1: The bout conditions used a heavy 24px/600 treatment that competed with the round hierarchy.
+- P1: At 768px the three-column layout forced the conditions into three to four lines and crowded the time limits.
+- P2: At 320px the header navigation exposed a horizontal scrollbar and partially hid the active section.
+
+Fix applied: reduced the condition typography to 20px/500 and tightened the cells. Below 900px, each stage becomes a compact two-column row; below 430px, the time limit moves under the condition so the text reflows without collisions. The narrowest header uses smaller navigation labels and tighter spacing so all three destinations remain visible without a scrollbar.
+
 ## Required fidelity surfaces
 
 - Fonts and typography: the existing Georgia/Times editorial hierarchy is preserved; all tier labels wrap cleanly on mobile.
