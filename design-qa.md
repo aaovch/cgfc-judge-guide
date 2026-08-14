@@ -76,6 +76,12 @@ Fix applied: removed category routing and reframed the overview as “Как в�
 
 Fix applied: removed the note row so the three bout-format cells lead directly into the round hierarchy.
 
+### Pass 10
+
+- P2: “5 побед из 9” could be read as five won bouts rather than five won rounds within one bout.
+
+Fix applied: made the unit explicit in all three stage cells: “выигранных раундов”.
+
 ## Required fidelity surfaces
 
 - Fonts and typography: the existing Georgia/Times editorial hierarchy is preserved; all tier labels wrap cleanly on mobile.
