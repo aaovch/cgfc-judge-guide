@@ -5,15 +5,15 @@
 - Mobile evidence: `C:\Users\aao\.codex\visualizations\2026\08\13\019ffac8-303b-7481-a187-c9bdac0942fe\kenjutsu-v2-mobile-qa.jpg`
 - Desktop viewport: 1280 × 720 CSS px, density 1; implementation capture 1265 × 720 px.
 - Mobile viewport: 390 px CSS width rendered in a desktop QA frame; no density normalization required for the content region.
-- State: default, all special-situation disclosures closed.
+- State: default; all three special rules visible.
 
 ## Full-view comparison evidence
 
-The reference and implementation were placed together in one comparison input. The implementation intentionally removes the large title, subtitle, control banner and six-row outcome matrix requested for deletion. The page now uses one short two-step formula, names the hierarchy “Что приносит победу в раунде”, then moves to the reading guide and one compact row of special situations.
+The reference and implementation were placed together in one comparison input. The implementation intentionally removes the large title, subtitle, control banner, procedural formula and six-row outcome matrix requested for deletion. The page now begins with “Что приносит победу в раунде”, then explains the stopping and comparison logic and shows three always-visible special rules.
 
 ## Focused comparison evidence
 
-The hierarchy copy and mobile stacking were checked separately. The two cumulative results use “+” rather than an arrow, all five tiers remain readable, and the reading guide explicitly explains that each tier is the fighter's full combination for the round. No image assets or custom icons occur in the source.
+The hierarchy copy and mobile stacking were checked separately. The two cumulative results use “+” rather than an arrow, all five tiers remain readable, and the reading guide explains when to stop and how to compare an exchange completed by both fighters. No image assets or custom icons occur in the source.
 
 ## Comparison history
 
@@ -33,13 +33,20 @@ Post-fix evidence: the desktop page is a single compact composition; at 390 px t
 
 Fixes applied: shortened the formula to “До «Стоп» копим действия → сравниваем итог”, added the plain-language heading “Что приносит победу в раунде”, and shortened the reading guide.
 
+### Pass 3
+
+- P2: The remaining formula duplicated the explanation that belongs in “Как читать”.
+- P2: Four collapsed disclosures hid essential rules and split the extended-double concept into two entries.
+
+Fixes applied: removed the formula, rewrote “Как читать” as the complete three-step round flow, merged mutual hits and afterblow into “Расширенный дубль”, and exposed the three special rules without interaction.
+
 ## Required fidelity surfaces
 
 - Fonts and typography: the existing Georgia/Times editorial hierarchy is preserved; all tier labels wrap cleanly on mobile.
-- Spacing and layout rhythm: the pyramid becomes the first dominant object after the formula; the lower half is substantially shorter.
+- Spacing and layout rhythm: the pyramid and its heading are the first dominant objects after navigation; the lower half is substantially shorter.
 - Colors and visual tokens: black header, ivory paper, gold hierarchy and hairline separators are unchanged.
 - Image quality and asset fidelity: not applicable; the design contains no raster imagery or non-standard icons.
-- Copy and content: cumulative actions are joined by “+”; the guide now explains the pyramid directly; redundant outcome examples are removed.
+- Copy and content: cumulative actions are joined by “+”; the guide explains when to stop and compare; mutual hits and afterblow share one extended-double rule.
 
 ## Findings
 
@@ -48,7 +55,7 @@ No actionable P0, P1 or P2 findings remain.
 ## Primary interactions tested
 
 - Navigation remains present and keyboard-focusable.
-- Each special-situation disclosure opens and closes.
+- All three special rules are visible without interaction.
 - Fresh-page browser console contains no errors.
 - Desktop and 390 px mobile layouts contain no horizontal page overflow.
 

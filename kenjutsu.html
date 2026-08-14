@@ -23,12 +23,6 @@
   </header>
 
   <main id="content" class="kenjutsu-main">
-    <p class="kenjutsu-flow" aria-label="Порядок определения результата">
-      <span>До «Стоп» копим действия</span>
-      <span aria-hidden="true">→</span>
-      <span>сравниваем итог</span>
-    </p>
-
     <section class="hierarchy-section" id="hierarchy" aria-labelledby="hierarchy-title">
       <div class="hierarchy-wrap">
         <h1 class="hierarchy-heading" id="hierarchy-title">Что приносит победу в раунде</h1>
@@ -45,32 +39,27 @@
       <aside class="how-to-read">
         <h2>Как читать</h2>
         <ol>
-          <li>Ступень — итог бойца за раунд.</li>
-          <li>Кто выше — тот выиграл.</li>
-          <li>При дубле добавь действия обоим.</li>
-          <li>Контроль — немедленная победа.</li>
+          <li>Бой идёт непрерывно: действия обоих накапливаются.</li>
+          <li>Останавливаем, когда один собрал результат слева. Контроль сразу даёт победу.</li>
+          <li>Если обмен закончился действиями обоих, сравниваем результаты: кто выше — тот выиграл.</li>
         </ol>
       </aside>
     </section>
 
     <section class="special-rules" aria-labelledby="special-title">
       <h2 class="sr-only" id="special-title">Особые ситуации</h2>
-      <details>
-        <summary>Дубль</summary>
-        <p>Одновременные действия считаются обоим и добавляются к накопленному.</p>
-      </details>
-      <details>
-        <summary>Порез</summary>
-        <p>Лезвие явно зафиксировано на теле, давление видно; протяжка не нужна.</p>
-      </details>
-      <details>
-        <summary>Клинч</summary>
-        <p>Не останавливать, пока нет результата, пореза или контроля.</p>
-      </details>
-      <details>
-        <summary>Поздний ответ</summary>
-        <p>Афтерблоу нет: ответ после паузы или «Стоп» не считается.</p>
-      </details>
+      <article class="special-rule">
+        <h2>Расширенный дубль</h2>
+        <p>Обоюдное попадание и афтерблоу — одно правило: действия засчитываются обоим.</p>
+      </article>
+      <article class="special-rule">
+        <h2>Порез</h2>
+        <p>Считать при явной фиксации лезвия и видимом давлении. Протяжка не нужна.</p>
+      </article>
+      <article class="special-rule">
+        <h2>Клинч</h2>
+        <p>Продолжать бой: отдельного лимита нет. Остановка — по результату слева или контролю.</p>
+      </article>
     </section>
   </main>
 

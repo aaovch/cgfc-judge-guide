@@ -274,22 +274,8 @@ tbody th { width: 170px; background: #f1eee8; }
   margin: 0 auto;
 }
 
-.kenjutsu-flow {
-  margin: 0;
-  padding: 24px 0 18px;
-  display: flex;
-  justify-content: center;
-  gap: 18px;
-  border-bottom: 1px solid var(--kenjutsu-gold);
-  font-size: 22px;
-}
-
-.kenjutsu-flow span[aria-hidden="true"] {
-  color: var(--kenjutsu-gold);
-}
-
 .hierarchy-section {
-  padding: 28px 64px 20px;
+  padding: 32px 64px 24px;
   display: grid;
   grid-template-columns: minmax(0, 1fr) 300px;
   gap: 72px;
@@ -366,37 +352,31 @@ tbody th { width: 170px; background: #f1eee8; }
 .special-rules {
   margin-top: 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   border-top: 1px solid var(--kenjutsu-line);
   border-bottom: 1px solid var(--kenjutsu-line);
 }
 
-.special-rules details {
+.special-rule {
   min-width: 0;
-  padding: 14px 24px;
-  text-align: center;
+  padding: 20px 26px 22px;
 }
 
-.special-rules details + details {
+.special-rule + .special-rule {
   border-left: 1px solid var(--kenjutsu-line);
 }
 
-.special-rules summary {
-  cursor: pointer;
-  font-size: 16px;
-  list-style-position: inside;
+.special-rule h2 {
+  margin: 0 0 6px;
+  font-size: 21px;
+  font-weight: 600;
 }
 
-.special-rules summary:hover,
-.special-rules summary:focus-visible {
-  color: #9c5a00;
-}
-
-.special-rules p {
-  margin: 10px 0 0;
+.special-rule p {
+  margin: 0;
   color: #5f574a;
   font-family: Inter, ui-sans-serif, system-ui, sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.4;
 }
 
@@ -479,12 +459,6 @@ tbody th { width: 170px; background: #f1eee8; }
     width: min(100% - 28px, 1400px);
   }
 
-  .kenjutsu-flow {
-    padding: 15px 0 12px;
-    gap: 8px;
-    font-size: 14px;
-  }
-
   .result-tier {
     min-height: 54px;
     padding: 8px 28px;
@@ -520,35 +494,22 @@ tbody th { width: 170px; background: #f1eee8; }
     grid-template-columns: 1fr;
   }
 
-  .special-rules details {
-    padding: 13px 6px;
+  .special-rule {
+    padding: 16px 6px;
     text-align: left;
   }
 
-  .special-rules details + details {
+  .special-rule + .special-rule {
     border-top: 1px solid var(--kenjutsu-line);
     border-left: 0;
   }
 
-  .special-rules summary {
-    font-size: 15px;
+  .special-rule h2 {
+    font-size: 19px;
   }
 }
 
 @media (max-width: 430px) {
-  .kenjutsu-flow span[aria-hidden="true"] {
-    display: none;
-  }
-
-  .kenjutsu-flow {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
-    gap: 4px;
-    font-size: 12px;
-    text-align: center;
-  }
-
   .result-tier {
     padding-inline: 22px;
   }
