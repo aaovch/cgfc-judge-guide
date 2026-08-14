@@ -58,6 +58,12 @@ Fix applied: added “Фаза контроля” as the strongest pyramid tier
 
 Fix applied: specified blade fixation on the opponent's body with visible pressure, clarified that drawing the blade is optional, and stated directly that a clinch may last the entire round.
 
+### Pass 7
+
+- P1: The page explained round outcomes but omitted the tournament path and the bout formats needed before those rules can be applied.
+
+Fix applied: added a compact tournament overview above the pyramid: common qualifiers split into Advanced and Basic branches; Basic proceeds directly to playoffs while Advanced repeats qualifiers first. Three aligned format cells show the wins, round cap and clean-time limit for qualifiers/groups/Swiss, main playoffs and final playoffs, followed by the playoff break rule.
+
 ## Required fidelity surfaces
 
 - Fonts and typography: the existing Georgia/Times editorial hierarchy is preserved; all tier labels wrap cleanly on mobile.

@@ -23,9 +23,56 @@
   </header>
 
   <main id="content" class="kenjutsu-main">
+    <section class="tournament-overview" aria-labelledby="tournament-title">
+      <header class="tournament-heading">
+        <h1 id="tournament-title">Регламент турнира</h1>
+      </header>
+
+      <div class="tournament-route" aria-label="Распределение спортсменов по категориям">
+        <article class="route-start">
+          <span>Все спортсмены</span>
+          <strong>Общие отборки</strong>
+          <small>По результатам — разделение на категории</small>
+        </article>
+
+        <div class="route-branches">
+          <article class="route-branch route-advanced">
+            <div><b>A</b><span>Advanced</span></div>
+            <p>Отборки <span aria-hidden="true">→</span> плей-офф</p>
+          </article>
+          <article class="route-branch route-basic">
+            <div><b>Б</b><span>Basic</span></div>
+            <p>Сразу плей-офф</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="format-heading">
+        <h2>Формат боёв</h2>
+        <p>До нужного числа побед или до конца чистого времени</p>
+      </div>
+
+      <dl class="bout-formats">
+        <div>
+          <dt>Отборки, группы, швейцарка</dt>
+          <dd><strong>5 из 9</strong><span>или 2 минуты</span></dd>
+        </div>
+        <div>
+          <dt>Основной плей-офф</dt>
+          <dd><strong>5 из 9</strong><span>или 3 минуты</span></dd>
+        </div>
+        <div>
+          <dt>Финальный плей-офф</dt>
+          <dd><strong>8 из 15</strong><span>или 4 минуты</span></dd>
+        </div>
+      </dl>
+
+      <p class="playoff-break"><strong>Плей-офф:</strong> перерыв 30 секунд в середине времени.</p>
+    </section>
+
     <section class="hierarchy-section" id="hierarchy" aria-labelledby="hierarchy-title">
       <div class="hierarchy-wrap">
-        <h1 class="hierarchy-heading" id="hierarchy-title">Что приносит победу в раунде</h1>
+        <h2 class="hierarchy-heading" id="hierarchy-title">Что приносит победу в раунде</h2>
         <ol class="result-hierarchy">
           <li class="result-tier tier-control"><span>Фаза контроля</span></li>
           <li class="result-tier tier-1"><span>Конечность + порез старшей зоны</span></li>
