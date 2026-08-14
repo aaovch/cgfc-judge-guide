@@ -40,6 +40,12 @@ Fixes applied: shortened the formula to “До «Стоп» копим дейс
 
 Fixes applied: removed the formula, rewrote “Как читать” as the complete three-step round flow, merged mutual hits and afterblow into “Расширенный дубль”, and exposed the three special rules without interaction.
 
+### Pass 4
+
+- P2: “Как читать” described the interface rather than the competition rule, and the text mixed conversational imperatives with formal definitions.
+
+Fix applied: renamed the block “Ход раунда” and rewrote it as three consistent statements: actions accumulate, a pyramid tier stops the round, and an extended double triggers comparison of accumulated results.
+
 ## Required fidelity surfaces
 
 - Fonts and typography: the existing Georgia/Times editorial hierarchy is preserved; all tier labels wrap cleanly on mobile.
