@@ -782,6 +782,17 @@ tbody th { width: 170px; background: #f1eee8; }
   font-size: 28px;
 }
 
+.afterblow-score > strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.afterblow-score p {
+  margin: 3px 0 0;
+}
+
 .score-difference {
   background: #f5ead4;
 }
@@ -795,6 +806,15 @@ tbody th { width: 170px; background: #f1eee8; }
 
 .score-difference p {
   margin: 2px 0 0;
+}
+
+.afterblow-examples {
+  display: flex;
+  gap: 18px;
+}
+
+.afterblow-examples span {
+  white-space: nowrap;
 }
 
 .tempo-decisions {

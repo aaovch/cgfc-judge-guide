@@ -111,6 +111,7 @@ Fix applied: reduced the stage labels to 600 weight and conditions to 400 weight
 - Integrated the four timing decisions into the scoring flow and kept the equal-mutual parry/riposte exception visible.
 - Added the only match-level exceptional outcome: a tied score after the ninth bout is resolved by the final pair in 30 seconds; if nobody scores, the preliminary draw decides the result.
 - Promoted fencing priority into its own rule: it applies only to a mutual hit, a riposte after a defence outranks a remise, and the fencer with priority receives one point. The tied-match note now says “жеребьёвка” to avoid conflating the two mechanisms.
+- Reframed afterblow as a deduction from the first hit rather than a separate score: only a hit to the senior target counts, it removes two points, and the exchange result cannot drop below zero. The compact examples show 3 → 1 and 1 → 0.
 - Responsive checks required at 1280px, 768px, 390px, and 320px before publication.
 
 ## Shared header and minimal home
