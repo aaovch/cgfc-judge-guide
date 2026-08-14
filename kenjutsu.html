@@ -28,24 +28,15 @@
       <span aria-hidden="true">→</span>
       <span>считаем обоим</span>
       <span aria-hidden="true">→</span>
-      <span>сравниваем результаты</span>
+      <span>сравниваем ступени</span>
     </p>
-
-    <header class="kenjutsu-title">
-      <h1>Как определить победителя</h1>
-      <p>Сравните итог каждого бойца по одной иерархии.</p>
-    </header>
-
-    <section class="kenjutsu-control" aria-label="Наивысший результат">
-      <strong>Контроль — немедленная победа</strong>
-    </section>
 
     <section class="hierarchy-section" id="hierarchy" aria-labelledby="hierarchy-title">
       <div class="hierarchy-wrap">
-        <h2 class="sr-only" id="hierarchy-title">Иерархия результатов от сильного к слабому</h2>
+        <h1 class="sr-only" id="hierarchy-title">Действия, ведущие к победе</h1>
         <ol class="result-hierarchy">
-          <li class="result-tier tier-1"><span>Конечность → порез старшей зоны</span></li>
-          <li class="result-tier tier-2"><span>Конечность → удар/укол в старшую зону</span></li>
+          <li class="result-tier tier-1"><span>Конечность + порез старшей зоны</span></li>
+          <li class="result-tier tier-2"><span>Конечность + удар/укол в старшую зону</span></li>
           <li class="result-tier tier-3"><span>Порез старшей зоны</span></li>
           <li class="result-tier tier-4"><span>Удар/укол в старшую зону</span></li>
           <li class="result-tier tier-5"><span>Два попадания в конечности</span></li>
@@ -56,67 +47,37 @@
       <aside class="how-to-read">
         <h2>Как читать</h2>
         <ol>
-          <li>Найди итог каждого бойца.</li>
-          <li>Кто выше в иерархии — тот выиграл.</li>
-          <li>При дубле сначала добавь действия обоим.</li>
-          <li>Одинаковая ступень — равный результат.</li>
+          <li>Ступень — вся комбинация бойца за раунд.</li>
+          <li>Найди ступень каждого: кто выше — тот выиграл.</li>
+          <li>При дубле добавь действия обоим и сравни снова.</li>
+          <li>Контроль — немедленная победа.</li>
         </ol>
       </aside>
-    </section>
-
-    <section class="outcome-section" aria-labelledby="outcome-title">
-      <h2 id="outcome-title">Кто выигрывает?</h2>
-      <dl class="outcome-grid">
-        <div>
-          <dt>Чистое действие или серия</dt>
-          <dd>Выполнивший её боец.</dd>
-        </div>
-        <div>
-          <dt>Комбинация против одиночного действия</dt>
-          <dd>Комбинация, если её итог выше.</dd>
-        </div>
-        <div>
-          <dt>Дубль без прежних действий</dt>
-          <dd>Более ценное действие.</dd>
-        </div>
-        <div>
-          <dt>Поздний ответ</dt>
-          <dd>Не считать; определить исход без него.</dd>
-        </div>
-        <div>
-          <dt>Дубль после прежних действий</dt>
-          <dd>Более высокий накопленный итог.</dd>
-        </div>
-        <div>
-          <dt>Равный итог</dt>
-          <dd>Порядок решения нужно подтвердить.</dd>
-        </div>
-      </dl>
     </section>
 
     <section class="special-rules" aria-labelledby="special-title">
       <h2 class="sr-only" id="special-title">Особые ситуации</h2>
       <details>
-        <summary>При дубле считать обоим</summary>
-        <p>Одновременные действия засчитываются обоим и добавляются к накопленному.</p>
+        <summary>Дубль</summary>
+        <p>Одновременные действия считаются обоим и добавляются к накопленному.</p>
       </details>
       <details>
-        <summary>Порез считать при фиксации</summary>
+        <summary>Порез</summary>
         <p>Лезвие явно зафиксировано на теле, давление видно; протяжка не нужна.</p>
       </details>
       <details>
-        <summary>Клинч продолжать</summary>
+        <summary>Клинч</summary>
         <p>Не останавливать, пока нет результата, пореза или контроля.</p>
       </details>
       <details>
-        <summary>Афтерблоу нет</summary>
-        <p>Одновременное действие — дубль. Ответ после паузы или «Стоп» — поздний и не считается.</p>
+        <summary>Поздний ответ</summary>
+        <p>Афтерблоу нет: ответ после паузы или «Стоп» не считается.</p>
       </details>
     </section>
   </main>
 
   <footer class="kenjutsu-footer">
-    Экспериментальный регламент · формулировки с пометкой «подтвердить» требуют решения организатора.
+    Экспериментальный регламент кендзюцу
   </footer>
 </body>
 </html>

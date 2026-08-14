@@ -1,53 +1,52 @@
-# Design QA — Kenjutsu
+# Design QA — Kenjutsu simplification
 
-- Source visual truth: `C:\Users\aao\.codex\generated_images\019ffac8-303b-7481-a187-c9bdac0942fe\exec-96b61d1b-6201-4bd2-b98d-1d8d22123e1c.png`
-- Implementation: `http://127.0.0.1:4173/kenjutsu.html`
-- State: default, all special-situation disclosures closed
-- Source pixels: 1488 × 1056
-- Implementation capture: browser-rendered full page at 1265 px wide, density 1
-- Comparison normalization: full-page composition compared at equivalent desktop state; source and implementation use different desktop widths, so typography and spacing were judged proportionally rather than pixel-for-pixel.
+- Source visual truth: `C:\Users\aao\AppData\Local\Temp\codex-clipboard-24539546-9bb1-43d9-aa71-3055a2931b9b.png`
+- Implementation screenshot: `C:\Users\aao\.codex\visualizations\2026\08\13\019ffac8-303b-7481-a187-c9bdac0942fe\kenjutsu-v2-desktop.jpg`
+- Mobile evidence: `C:\Users\aao\.codex\visualizations\2026\08\13\019ffac8-303b-7481-a187-c9bdac0942fe\kenjutsu-v2-mobile-qa.jpg`
+- Desktop viewport: 1280 × 720 CSS px, density 1; implementation capture 1265 × 720 px.
+- Mobile viewport: 390 px CSS width rendered in a desktop QA frame; no density normalization required for the content region.
+- State: default, all special-situation disclosures closed.
 
 ## Full-view comparison evidence
 
-The implementation preserves the reference's black competition header, three-step result formula, centered title, outlined immediate-win control, five-tier gold hierarchy, side reading guide, outcome matrix, and compact special-situation row. The hierarchy remains the dominant object and the redundant “cleanliness of victory” explanation is absent.
+The reference and implementation were placed together in one comparison input. The implementation intentionally removes the large title, subtitle, control banner and six-row outcome matrix requested for deletion. The page now moves directly from the three-step formula to the five-tier hierarchy, then to the reading guide and one compact row of special situations.
 
 ## Focused comparison evidence
 
-The hierarchy and outcome matrix were checked separately because their copy and wrapping are the core interaction. All five tiers are readable without truncation; outcome rows retain a consistent prompt → answer structure. No raster imagery or icon assets are present in the reference, so asset fidelity is not applicable.
+The hierarchy copy and mobile stacking were checked separately. The two cumulative results use “+” rather than an arrow, all five tiers remain readable, and the reading guide explicitly explains that each tier is the fighter's full combination for the round. No image assets or custom icons occur in the source.
 
 ## Comparison history
 
 ### Pass 1
 
-- P2: The page title and pyramid labels were oversized at the captured width, causing avoidable wrapping and reducing the reference's compact rhythm.
-- P2: The “Кто выигрывает?” heading touched the matrix border too closely.
+- P2: The original page repeated the same outcome logic in the heading, control banner, hierarchy and large lower matrix.
+- P2: Arrows inside the two cumulative tiers implied sequence rather than addition.
 
-Fixes applied: reduced the title and tier type scales, tightened tier heights, and restored space below the outcome heading.
+Fixes applied: removed the redundant heading/banner/matrix, changed the cumulative tier separator to “+”, moved control into the reading guide, and shortened the four disclosure labels.
 
-Post-fix evidence: the heading, pyramid, reading guide, matrix, and special rules fit as a single coherent desktop composition; mobile media rules collapse the guide and matrix to one column without horizontal page overflow.
+Post-fix evidence: the desktop page is a single compact composition; at 390 px the hierarchy, instructions and disclosures form one readable column without horizontal overflow.
 
 ## Required fidelity surfaces
 
-- Fonts and typography: Georgia/Times serif hierarchy matches the editorial reference; system sans is limited to small utility copy. Headings, labels, and body copy wrap without truncation.
-- Spacing and layout rhythm: major regions follow the source proportions; desktop uses a two-column hierarchy/read-guide layout and mobile collapses predictably.
-- Colors and visual tokens: warm ivory paper, black header and text, muted gold hierarchy, and hairline gold borders match the source direction.
-- Image quality and asset fidelity: no image assets or non-standard icons are required by the source.
-- Copy and content: the selected hierarchy is complete, numerical scores and “чистота победы” are omitted, and special situations remain concise with optional detail.
+- Fonts and typography: the existing Georgia/Times editorial hierarchy is preserved; all tier labels wrap cleanly on mobile.
+- Spacing and layout rhythm: the pyramid becomes the first dominant object after the formula; the lower half is substantially shorter.
+- Colors and visual tokens: black header, ivory paper, gold hierarchy and hairline separators are unchanged.
+- Image quality and asset fidelity: not applicable; the design contains no raster imagery or non-standard icons.
+- Copy and content: cumulative actions are joined by “+”; the guide now explains the pyramid directly; redundant outcome examples are removed.
 
 ## Findings
 
-No actionable P0, P1, or P2 findings remain.
+No actionable P0, P1 or P2 findings remain.
 
 ## Primary interactions tested
 
-- Navigation links are present and keyboard-focusable.
-- Each special-situation disclosure can open and close natively.
-- Desktop layout renders without clipped content.
-- Mobile breakpoint rules remove the side column, stack the outcome grid, and preserve reading order.
-- Browser console checked: no page errors observed.
+- Navigation remains present and keyboard-focusable.
+- Each special-situation disclosure opens and closes.
+- Fresh-page browser console contains no errors.
+- Desktop and 390 px mobile layouts contain no horizontal page overflow.
 
 ## Follow-up polish
 
-- P3: Revisit the exact equal-result procedure once the organizer confirms it.
+- P3: The exact treatment of equal results can be added later if the organizer confirms it.
 
 final result: passed
