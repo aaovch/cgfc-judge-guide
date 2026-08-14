@@ -314,7 +314,7 @@ tbody th { width: 170px; background: #f1eee8; }
   color: #675e50;
   font-family: Inter, ui-sans-serif, system-ui, sans-serif;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: .015em;
   text-transform: uppercase;
 }
@@ -329,7 +329,7 @@ tbody th { width: 170px; background: #f1eee8; }
 
 .bout-formats dd strong {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.22;
 }
 
@@ -629,7 +629,7 @@ tbody th { width: 170px; background: #f1eee8; }
   }
 
   .bout-formats > div {
-    grid-template-columns: minmax(100px, .75fr) minmax(0, 1.25fr);
+    grid-template-columns: 92px minmax(0, 1fr);
     gap: 12px;
   }
 
@@ -643,7 +643,7 @@ tbody th { width: 170px; background: #f1eee8; }
   }
 
   .bout-formats dd strong {
-    font-size: 19px;
+    font-size: 18px;
   }
 
   .bout-formats dd span {

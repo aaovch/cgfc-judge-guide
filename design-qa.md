@@ -90,6 +90,12 @@ Fix applied: made the unit explicit in all three stage cells: “выигран�
 
 Fix applied: reduced the condition typography to 20px/500 and tightened the cells. Below 900px, each stage becomes a compact two-column row; below 430px, the time limit moves under the condition so the text reflows without collisions. The narrowest header uses smaller navigation labels and tighter spacing so all three destinations remain visible without a scrollbar.
 
+### Pass 12
+
+- P2: On phones, the stage column still occupied more horizontal space than its supporting role required, while both columns remained slightly heavy.
+
+Fix applied: reduced the stage labels to 600 weight and conditions to 400 weight. Below 430px, the stage column is fixed at 92px and the condition text drops to 18px, leaving more usable width on the right.
+
 ## Required fidelity surfaces
 
 - Fonts and typography: the existing Georgia/Times editorial hierarchy is preserved; all tier labels wrap cleanly on mobile.
