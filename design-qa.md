@@ -70,6 +70,12 @@ Fix applied: added a compact tournament overview above the pyramid: common quali
 
 Fix applied: removed category routing and reframed the overview as “Как выиграть бой”. The three stage cells now state the required round victories and time limit directly; clean-time and playoff-break notes remain visible below.
 
+### Pass 9
+
+- P3: The clean-time and playoff-break note row repeated secondary detail and added unnecessary vertical space between the bout formats and the round hierarchy.
+
+Fix applied: removed the note row so the three bout-format cells lead directly into the round hierarchy.
+
 ## Required fidelity surfaces
 
 - Fonts and typography: the existing Georgia/Times editorial hierarchy is preserved; all tier labels wrap cleanly on mobile.

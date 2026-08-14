@@ -336,24 +336,6 @@ tbody th { width: 170px; background: #f1eee8; }
   font-size: 13px;
 }
 
-.bout-notes {
-  margin: 12px 0 0;
-  display: flex;
-  justify-content: space-between;
-  gap: 24px;
-  color: #675e50;
-  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
-  font-size: 13px;
-}
-
-.bout-notes p {
-  margin: 0;
-}
-
-.bout-notes strong {
-  color: var(--kenjutsu-ink);
-}
-
 .hierarchy-section {
   padding: 32px 64px 24px;
   display: grid;
@@ -556,11 +538,6 @@ tbody th { width: 170px; background: #f1eee8; }
   .bout-formats > div + div {
     border-top: 1px solid var(--kenjutsu-line);
     border-left: 0;
-  }
-
-  .bout-notes {
-    flex-direction: column;
-    gap: 4px;
   }
 
   .result-tier {
