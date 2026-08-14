@@ -52,6 +52,12 @@ Fix applied: renamed the block “Ход раунда” and rewrote it as three
 
 Fix applied: added “Фаза контроля” as the strongest pyramid tier and removed the separate control sentence from “Ход раунда”.
 
+### Pass 6
+
+- P2: The cut definition did not name the opponent's body and sounded as though a draw was forbidden; the clinch rule described stopping conditions instead of stating the absence of a time limit.
+
+Fix applied: specified blade fixation on the opponent's body with visible pressure, clarified that drawing the blade is optional, and stated directly that a clinch may last the entire round.
+
 ## Required fidelity surfaces
 
 - Fonts and typography: the existing Georgia/Times editorial hierarchy is preserved; all tier labels wrap cleanly on mobile.
