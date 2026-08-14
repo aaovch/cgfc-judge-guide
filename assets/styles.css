@@ -314,11 +314,12 @@ tbody th { width: 170px; background: #f1eee8; }
   line-height: 1.08;
 }
 
-.tier-1 { width: 100%; background: #d39409; }
-.tier-2 { width: 94%; background: #e6bc61; }
+.tier-control { width: 100%; color: #fffaf0; background: #9b6300; }
+.tier-1 { width: 96%; background: #d39409; }
+.tier-2 { width: 92%; background: #e6bc61; }
 .tier-3 { width: 88%; background: #edd29d; }
-.tier-4 { width: 82%; background: #f2dfbc; }
-.tier-5 { width: 76%; background: #f4e9d6; }
+.tier-4 { width: 84%; background: #f2dfbc; }
+.tier-5 { width: 80%; background: #f4e9d6; }
 
 .limb-note {
   width: 82%;
@@ -465,11 +466,12 @@ tbody th { width: 170px; background: #f1eee8; }
     font-size: clamp(18px, 5.2vw, 24px);
   }
 
-  .tier-1 { width: 100%; }
-  .tier-2 { width: 97%; }
+  .tier-control { width: 100%; }
+  .tier-1 { width: 98%; }
+  .tier-2 { width: 96%; }
   .tier-3 { width: 94%; }
-  .tier-4 { width: 91%; }
-  .tier-5 { width: 88%; }
+  .tier-4 { width: 92%; }
+  .tier-5 { width: 90%; }
 
   .limb-note {
     width: 94%;

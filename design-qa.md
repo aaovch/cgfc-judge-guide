@@ -46,13 +46,19 @@ Fixes applied: removed the formula, rewrote “Как читать” as the com
 
 Fix applied: renamed the block “Ход раунда” and rewrote it as three consistent statements: actions accumulate, a pyramid tier stops the round, and an extended double triggers comparison of accumulated results.
 
+### Pass 5
+
+- P2: Control remained an exception in the explanatory text instead of participating in the same visible outcome hierarchy.
+
+Fix applied: added “Фаза контроля” as the strongest pyramid tier and removed the separate control sentence from “Ход раунда”.
+
 ## Required fidelity surfaces
 
 - Fonts and typography: the existing Georgia/Times editorial hierarchy is preserved; all tier labels wrap cleanly on mobile.
 - Spacing and layout rhythm: the pyramid and its heading are the first dominant objects after navigation; the lower half is substantially shorter.
 - Colors and visual tokens: black header, ivory paper, gold hierarchy and hairline separators are unchanged.
 - Image quality and asset fidelity: not applicable; the design contains no raster imagery or non-standard icons.
-- Copy and content: cumulative actions are joined by “+”; the guide explains when to stop and compare; mutual hits and afterblow share one extended-double rule.
+- Copy and content: cumulative actions are joined by “+”; control is the highest visible tier; the guide explains when to stop and compare; mutual hits and afterblow share one extended-double rule.
 
 ## Findings
 
