@@ -280,116 +280,14 @@ tbody th { width: 170px; background: #f1eee8; }
 }
 
 .tournament-heading h1 {
-  margin: 0 0 20px;
+  margin: 0;
   font-size: clamp(32px, 3.4vw, 46px);
   font-weight: 500;
   letter-spacing: -.025em;
 }
 
-.tournament-route {
-  display: grid;
-  grid-template-columns: minmax(250px, .8fr) 1.7fr;
-  gap: 14px;
-}
-
-.route-start,
-.route-branch {
-  min-width: 0;
-  border: 1px solid var(--kenjutsu-line);
-  background: rgba(255, 255, 255, .28);
-}
-
-.route-start {
-  padding: 18px 22px;
-  display: grid;
-  align-content: center;
-  border-left: 4px solid var(--kenjutsu-gold);
-}
-
-.route-start span,
-.route-start small {
-  color: #675e50;
-  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
-  font-size: 12px;
-}
-
-.route-start span {
-  font-weight: 750;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-}
-
-.route-start strong {
-  margin: 3px 0;
-  font-size: 25px;
-  font-weight: 600;
-}
-
-.route-branches {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 14px;
-}
-
-.route-branch {
-  padding: 16px 20px;
-}
-
-.route-branch > div {
-  display: flex;
-  align-items: baseline;
-  gap: 10px;
-}
-
-.route-branch b {
-  color: var(--kenjutsu-gold);
-  font-size: 27px;
-}
-
-.route-branch span {
-  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
-  font-size: 13px;
-  font-weight: 750;
-  letter-spacing: .04em;
-  text-transform: uppercase;
-}
-
-.route-branch p {
-  margin: 6px 0 0;
-  font-size: 20px;
-}
-
-.route-branch p span {
-  margin: 0 5px;
-  color: var(--kenjutsu-gold);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: inherit;
-  font-weight: 400;
-}
-
-.route-advanced {
-  border-top: 3px solid #9b6300;
-}
-
-.route-basic {
-  border-top: 3px solid #d7b66f;
-}
-
-.format-heading {
-  margin: 24px 0 10px;
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 20px;
-}
-
-.format-heading h2 {
-  margin: 0;
-  font-size: 27px;
-}
-
-.format-heading p {
-  margin: 0;
+.tournament-heading p {
+  margin: 3px 0 18px;
   color: #675e50;
   font-family: Inter, ui-sans-serif, system-ui, sans-serif;
   font-size: 13px;
@@ -438,15 +336,21 @@ tbody th { width: 170px; background: #f1eee8; }
   font-size: 13px;
 }
 
-.playoff-break {
+.bout-notes {
   margin: 12px 0 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
   color: #675e50;
   font-family: Inter, ui-sans-serif, system-ui, sans-serif;
   font-size: 13px;
-  text-align: right;
 }
 
-.playoff-break strong {
+.bout-notes p {
+  margin: 0;
+}
+
+.bout-notes strong {
   color: var(--kenjutsu-ink);
 }
 
@@ -580,10 +484,6 @@ tbody th { width: 170px; background: #f1eee8; }
     gap: 20px;
   }
 
-  .tournament-route {
-    grid-template-columns: 1fr;
-  }
-
   .how-to-read {
     padding: 18px 0 0;
     border-top: 1px solid var(--kenjutsu-line);
@@ -649,7 +549,6 @@ tbody th { width: 170px; background: #f1eee8; }
     font-size: 34px;
   }
 
-  .route-branches,
   .bout-formats {
     grid-template-columns: 1fr;
   }
@@ -659,14 +558,9 @@ tbody th { width: 170px; background: #f1eee8; }
     border-left: 0;
   }
 
-  .format-heading {
-    align-items: flex-start;
+  .bout-notes {
     flex-direction: column;
-    gap: 3px;
-  }
-
-  .playoff-break {
-    text-align: left;
+    gap: 4px;
   }
 
   .result-tier {

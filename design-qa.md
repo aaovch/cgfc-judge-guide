@@ -64,6 +64,12 @@ Fix applied: specified blade fixation on the opponent's body with visible pressu
 
 Fix applied: added a compact tournament overview above the pyramid: common qualifiers split into Advanced and Basic branches; Basic proceeds directly to playoffs while Advanced repeats qualifiers first. Three aligned format cells show the wins, round cap and clean-time limit for qualifiers/groups/Swiss, main playoffs and final playoffs, followed by the playoff break rule.
 
+### Pass 8
+
+- P2: The Advanced/Basic routing duplicated information calculated by the tournament application and distracted from the conditions for winning the current bout.
+
+Fix applied: removed category routing and reframed the overview as “Как выиграть бой”. The three stage cells now state the required round victories and time limit directly; clean-time and playoff-break notes remain visible below.
+
 ## Required fidelity surfaces
 
 - Fonts and typography: the existing Georgia/Times editorial hierarchy is preserved; all tier labels wrap cleanly on mobile.
