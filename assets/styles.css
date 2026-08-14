@@ -836,6 +836,53 @@ tbody th { width: 170px; background: #f1eee8; }
   margin-top: 12px;
 }
 
+.fencing-priority {
+  margin-top: 16px;
+  padding: 16px 20px;
+  display: grid;
+  grid-template-columns: .7fr 1.35fr 1fr;
+  align-items: center;
+  gap: 24px;
+  border-top: 1px solid var(--kenjutsu-line);
+  border-bottom: 1px solid var(--kenjutsu-line);
+  background: #f5ead4;
+}
+
+.fencing-priority h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.fencing-priority p {
+  margin: 0;
+  color: #5f574a;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.fencing-priority div p {
+  margin-top: 3px;
+  font-size: 12px;
+}
+
+.fencing-priority strong {
+  color: var(--kenjutsu-ink);
+}
+
+.priority-result {
+  padding-left: 24px;
+  border-left: 1px solid var(--kenjutsu-line);
+}
+
+.priority-result strong {
+  display: block;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 22px;
+  font-weight: 500;
+}
+
 /* Minimal discipline selector */
 .home-rules {
   min-height: 100svh;
@@ -974,6 +1021,18 @@ tbody th { width: 170px; background: #f1eee8; }
 
   .priority-note {
     font-size: 14px;
+  }
+
+  .fencing-priority {
+    padding: 14px 12px;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .priority-result {
+    padding: 10px 0 0;
+    border-top: 1px solid var(--kenjutsu-line);
+    border-left: 0;
   }
 
   .discipline-home {

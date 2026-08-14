@@ -109,7 +109,8 @@ Fix applied: reduced the stage labels to 600 weight and conditions to 400 weight
 - Replaced the five generic numbered sections with three task-focused blocks: winning the match, relay order, and scoring one exchange.
 - Kept the tournament-specific format visible: five Swiss rounds, no playoffs, 3×3 teams, nine 45-second bouts, and a score cap rising by five.
 - Integrated the four timing decisions into the scoring flow and kept the equal-mutual parry/riposte exception visible.
-- Added the only match-level exceptional outcome: a tied score after the ninth bout is resolved by the final pair in 30 seconds, with priority drawn in advance.
+- Added the only match-level exceptional outcome: a tied score after the ninth bout is resolved by the final pair in 30 seconds; if nobody scores, the preliminary draw decides the result.
+- Promoted fencing priority into its own rule: it applies only to a mutual hit, a riposte after a defence outranks a remise, and the fencer with priority receives one point. The tied-match note now says “жеребьёвка” to avoid conflating the two mechanisms.
 - Responsive checks required at 1280px, 768px, 390px, and 320px before publication.
 
 ## Shared header and minimal home
