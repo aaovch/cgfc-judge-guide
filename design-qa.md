@@ -112,6 +112,12 @@ Fix applied: reduced the stage labels to 600 weight and conditions to 400 weight
 - Added the only match-level exceptional outcome: a tied score after the ninth bout is resolved by the final pair in 30 seconds, with priority drawn in advance.
 - Responsive checks required at 1280px, 768px, 390px, and 320px before publication.
 
+## Shared header and minimal home
+
+- Standardized the visible header across the home, longsword, kenjutsu, and legacy glossary pages.
+- Removed “Общий регламент” and “Темп” from the shared navigation; the CGFC brand is the home link.
+- Reduced the home page to two large destinations with no descriptions, statuses, footer, or secondary content.
+
 ## Findings
 
 No actionable P0, P1 or P2 findings remain.

@@ -3,49 +3,30 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Краткие памятки CGFC для судей и бойцов.">
-  <title>Памятки CGFC</title>
-  <link rel="stylesheet" href="assets/styles.css">
+  <meta name="description" content="Краткие памятки CGFC по длинному мечу и кендзюцу.">
+  <title>Регламент CGFC</title>
+  <link rel="stylesheet" href="assets/styles.css?v=14">
 </head>
-<body>
-  <header class="site-header">
-    <a class="brand" href="index.html"><span class="brand-mark">C</span><span><strong>CGFC</strong><small>памятки</small></span></a>
-    <nav class="main-nav" aria-label="Навигация">
+<body class="kenjutsu-rules home-rules">
+  <a class="skip-link" href="#content">К номинациям</a>
+
+  <header class="site-header kenjutsu-header">
+    <a class="kenjutsu-brand" href="index.html" aria-label="CGFC — регламент соревнований">
+      <strong>CGFC</strong>
+      <span>Регламент соревнований</span>
+    </a>
+    <nav class="kenjutsu-nav" aria-label="Основная навигация">
       <a href="longsword.html">Длинный меч</a>
       <a href="kenjutsu.html">Кендзюцу</a>
-      <a href="glossary.html">Темп</a>
     </nav>
   </header>
 
-  <main id="content">
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">Турнирная памятка</p>
-        <h1>Выберите номинацию</h1>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="card-grid">
-        <article class="discipline-card accent-red">
-          <div class="card-topline"><span>01</span><span class="status draft">черновик</span></div>
-          <h2>Командный длинный меч</h2>
-          <p>Счёт, темп, порядок боёв и короткие алгоритмы.</p>
-          <a class="button primary" href="longsword.html">Открыть</a>
-        </article>
-
-        <article class="discipline-card accent-blue">
-          <div class="card-topline"><span>02</span><span class="status draft">эксперимент</span></div>
-          <h2>Кендзюцу</h2>
-          <p>Баллы, порезы, дубли, клинч и алгоритм судьи.</p>
-          <a class="button secondary" href="kenjutsu.html">Открыть</a>
-        </article>
-      </div>
-    </section>
+  <main id="content" class="discipline-home">
+    <h1 class="sr-only">Выберите номинацию</h1>
+    <nav class="discipline-chooser" aria-label="Номинации">
+      <a href="longsword.html">Длинный меч</a>
+      <a href="kenjutsu.html">Кендзюцу</a>
+    </nav>
   </main>
-
-  <footer class="site-footer">
-    <p>При расхождении действуют официальные правила CGFC.</p>
-  </footer>
 </body>
 </html>
