@@ -9,7 +9,7 @@
 
 ## Full-view comparison evidence
 
-The reference and implementation were placed together in one comparison input. The implementation intentionally removes the large title, subtitle, control banner and six-row outcome matrix requested for deletion. The page now moves directly from the three-step formula to the five-tier hierarchy, then to the reading guide and one compact row of special situations.
+The reference and implementation were placed together in one comparison input. The implementation intentionally removes the large title, subtitle, control banner and six-row outcome matrix requested for deletion. The page now uses one short two-step formula, names the hierarchy “Что приносит победу в раунде”, then moves to the reading guide and one compact row of special situations.
 
 ## Focused comparison evidence
 
@@ -25,6 +25,13 @@ The hierarchy copy and mobile stacking were checked separately. The two cumulati
 Fixes applied: removed the redundant heading/banner/matrix, changed the cumulative tier separator to “+”, moved control into the reading guide, and shortened the four disclosure labels.
 
 Post-fix evidence: the desktop page is a single compact composition; at 390 px the hierarchy, instructions and disclosures form one readable column without horizontal overflow.
+
+### Pass 2
+
+- P2: The three-part formula still sounded like judging procedure rather than a quick explanation for a fighter.
+- P2: The hierarchy lacked a visible name, so its purpose had to be inferred.
+
+Fixes applied: shortened the formula to “До «Стоп» копим действия → сравниваем итог”, added the plain-language heading “Что приносит победу в раунде”, and shortened the reading guide.
 
 ## Required fidelity surfaces
 

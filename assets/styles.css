@@ -300,6 +300,14 @@ tbody th { width: 170px; background: #f1eee8; }
   min-width: 0;
 }
 
+.hierarchy-heading {
+  margin: 0 0 16px;
+  font-size: clamp(28px, 3vw, 42px);
+  font-weight: 500;
+  letter-spacing: -.02em;
+  text-align: center;
+}
+
 .result-hierarchy {
   margin: 0;
   padding: 0;
@@ -498,6 +506,11 @@ tbody th { width: 170px; background: #f1eee8; }
     font-size: 27px;
   }
 
+  .hierarchy-heading {
+    margin-bottom: 14px;
+    font-size: 29px;
+  }
+
   .how-to-read ol {
     grid-template-columns: 1fr;
     font-size: 15px;
@@ -529,7 +542,7 @@ tbody th { width: 170px; background: #f1eee8; }
 
   .kenjutsu-flow {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: 1fr 1fr;
     justify-content: space-between;
     gap: 4px;
     font-size: 12px;
